@@ -1,0 +1,41 @@
+h1 {
+  font-family: chiller;
+  display: block;
+  font-size: 3em;
+  font-weight: bold;
+},
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: red;
+}
+
+p {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  font-family: 'Times New Roman', Times, serif;
+},
+
+.paragraph {
+  font-family: 'Times New Roman', Times, serif;
+},
+
+.container > tiers {
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  height: 300px;
+  font-family: chiller;
+},
+
+.container > div {
+  display: inline-block;
+  display: -moz-inline-box;
+  *display: inline; /* For IE7 */
+  zoom: 1; /* Trigger hasLayout */
+  width: 11%;
+  text-align: center;
+  font-family: chiller;
+  font-size: 2em;
+}
