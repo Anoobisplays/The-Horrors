@@ -8,6 +8,15 @@ body {
   display: block;
 }
 
+p {
+  text-align: center;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 5em;
+  margin-right: 5em;
+  font-family: roboto;
+}
 h1 {
   font-family: chiller, verdana;
   display: block;
@@ -17,7 +26,6 @@ h1 {
   text-shadow: 2px 1px 5px red, 2px 1px 5px white;
   margin: 2px 1px 2px 1px;
 }
-
 hr {
   height: 2px;
   width: 40%;
@@ -26,7 +34,6 @@ hr {
   background-color: black;
   width: 80%;
 }
-
 h4 {
   text-align: center;
   font-family: roboto;
@@ -35,19 +42,63 @@ h4 {
 .socialMedia {
   text-align: center;
 }
+.socialMedia a{
+  text-decoration: none;
+  margin-right: 20px;
+}
 
-.imageRow{
-  display:inline-block;
-  border: 1px solid rgb(255, 0, 0);
-  margin: 40px;
-  width: 200px;
-  padding: 5px;
+.fa-brands.fa-youtube{
+  color:#000000;
+  font-size: 25px;
+}
+.fa-brands.fa-youtube:hover{
+  color: red;
+}
+.fa-brands.fa-square-instagram{
+  color: black;
+  font-size: 25px;
+}
+.fa-brands.fa-square-instagram:hover{
+  color: rgb(206, 72, 38);
+}
+.fa-brands.fa-tiktok{
+  color: black;
+  font-size: 25px;
+}
+.fa-brands.fa-tiktok:hover{
+  color: rgb(243, 2, 243);
+}
+.fa-solid.fa-at{
+  color:#000000;
+  font-size: 25px;
+}
+.fa-solid.fa-at:hover{
+  color: blue;
+}
+.fa-solid.fa-envelopes-bulk{
+  color:#000000;
+  font-size: 25px;
+}
+.fa-solid.fa-envelopes-bulk:hover{
+  color: green;
+}
+
+
+.tierLinks{
   text-align: center;
 }
-.imageRow:hover{
+
+.imageRow {
+  display: inline-block;
+  border: 1px solid rgb(255, 0, 0);
+  margin: 23px;
+  width: 200px;
+  padding: 5px;
+}
+.imageRow:hover {
   transform: scale(1.1);
 }
-.imageRow .description{
+.imageRow .description {
   padding: 25px;
   text-align: center;
   font-family: chiller, roboto;
